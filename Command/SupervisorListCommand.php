@@ -27,7 +27,7 @@ class SupervisorListCommand extends SupervisorCommand
         parent::configure();
 
         $this->setName('abc:supervisor:list');
-        $this->setDescription('Lists the supervisor instances');
+        $this->setDescription('Lists the supervisor processes');
     }
 
     /**

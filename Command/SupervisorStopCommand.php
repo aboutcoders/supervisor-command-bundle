@@ -27,7 +27,7 @@ class SupervisorStopCommand extends SupervisorCommand
 
         $this
             ->setName('abc:supervisor:stop')
-            ->setDescription('Stops the supervisor instance');
+            ->setDescription('Stops the supervisor processes');
     }
 
     /**

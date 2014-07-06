@@ -15,7 +15,7 @@ use YZ\SupervisorBundle\Manager\SupervisorManager;
  *
  * @author Hannes Schulz <schulz@daten-bahn.de>
  */
-abstract class  extends ContainerAwareCommand
+abstract class SupervisorCommand extends ContainerAwareCommand
 {
 
     /**

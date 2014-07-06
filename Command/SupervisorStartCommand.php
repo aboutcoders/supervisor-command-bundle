@@ -25,7 +25,7 @@ class SupervisorStartCommand extends SupervisorCommand
         parent::configure();
 
         $this->setName('abc:supervisor:start');
-        $this->setDescription('Starts the supervisor instance');
+        $this->setDescription('Starts the supervisor processes');
     }
 
     /**
