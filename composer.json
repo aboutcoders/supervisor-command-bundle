@@ -1,7 +1,7 @@
 {
     "name": "aboutcoders/supervisor-command-bundle",
     "type": "symfony-bundle",
-    "description": "A symfony bundle that provides console commands to control supervisor instances (based on the https://github.com/yzalis/SupervisorBundle).",
+    "description": "A symfony bundle that provides console commands to control supervisor instances on top of the https://github.com/yzalis/SupervisorBundle.",
     "keywords": ["supervisor", "supervisord", "command", "symfony"],
     "homepage": "https://bitbucket.org/hasc/supervisor-command-bundle",
     "license": "AboutCoders",
@@ -13,7 +13,8 @@
     ],
     "require": {
         "symfony/symfony": "~2.1",
-        "yzalis/supervisor-bundle": "~1"
+        "yzalis/supervisor-bundle": "~1",
+        "zendframework/zendxml": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~3.7"
