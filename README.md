@@ -9,6 +9,7 @@ Build Status: [![Build Status](https://travis-ci.org/aboutcoders/supervisor-comm
 
 Follow the installation and configuration instructions of the third party bundles:
 
+* [SensioFrameworkExtraBundle](http://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle)
 * [YZSupervisorBundle](https://github.com/yzalis/SupervisorBundle)
 
 Add the AbcSupervisorCommandBundle to your `composer.json` file
