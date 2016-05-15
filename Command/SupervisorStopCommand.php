@@ -1,19 +1,22 @@
 <?php
+/*
+* This file is part of the supervisor-command-bundle package.
+*
+* (c) Hannes Schulz <hannes.schulz@aboutcoders.com>
+*
+* For the full copyright and license information, please view the LICENSE
+* file that was distributed with this source code.
+*/
 
 namespace Abc\Bundle\SupervisorCommandBundle\Command;
 
 use Supervisor\Process;
 use Supervisor\Supervisor;
-use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
-use YZ\SupervisorBundle\Manager\SupervisorManager;
 
 /**
- * SupervisorStopCommand.
- *
- * @author Hannes Schulz <schulz@daten-bahn.de>
+ * @author Hannes Schulz <hannes.schulz@aboutcoders.com>
  */
 class SupervisorStopCommand extends SupervisorCommand
 {

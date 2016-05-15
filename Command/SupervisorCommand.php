@@ -1,4 +1,12 @@
 <?php
+/*
+* This file is part of the supervisor-command-bundle package.
+*
+* (c) Hannes Schulz <hannes.schulz@aboutcoders.com>
+*
+* For the full copyright and license information, please view the LICENSE
+* file that was distributed with this source code.
+*/
 
 namespace Abc\Bundle\SupervisorCommandBundle\Command;
 
@@ -11,9 +19,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 use YZ\SupervisorBundle\Manager\SupervisorManager;
 
 /**
- * SupervisorCommand base class that provides convenience methods.
- *
- * @author Hannes Schulz <schulz@daten-bahn.de>
+ * @author Hannes Schulz <hannes.schulz@aboutcoders.com>
  */
 abstract class SupervisorCommand extends ContainerAwareCommand
 {
