@@ -14,12 +14,8 @@ Follow the installation and configuration instructions of the third party bundle
 
 Add the AbcSupervisorCommandBundle to your `composer.json` file
 
-```json
-{
-    "require": {
-        "aboutcoders/supervisor-command-bundle": "dev-master"
-    }
-}
+```
+php composer.phar require aboutcoders/supervisor-command-bundle
 ```
 
 Include the bundle in the AppKernel.php class
