@@ -1,4 +1,4 @@
-Symfony Supervisor Command Bundle
+AbcSupervisorCommandBundle
 ==========================
 
 A symfony bundle that provides console commands to control supervisor instances (based on the [YZSupervisorBundle](https://github.com/yzalis/SupervisorBundle)).
