@@ -43,4 +43,3 @@ php app/console list abc:supervisor
 ## ToDo
 
 * Increase unit test coverage
-* Add support for symfony >= 2.3
