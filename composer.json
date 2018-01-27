@@ -4,7 +4,7 @@
     "description": "A symfony bundle that provides console commands to control supervisor instances on top of the https://github.com/yzalis/SupervisorBundle.",
     "keywords": ["supervisor", "supervisord", "command", "symfony"],
     "homepage": "https://bitbucket.org/hasc/supervisor-command-bundle",
-    "license": "AboutCoders",
+    "license": "MIT",
     "authors": [
         {
             "name": "Hannes Schulz",
