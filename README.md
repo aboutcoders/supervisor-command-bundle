@@ -1,6 +1,8 @@
 AbcSupervisorCommandBundle
 ==========================
 
+# DEPRECATED
+
 A symfony bundle that provides console commands to control supervisor instances (based on the [YZSupervisorBundle](https://github.com/yzalis/SupervisorBundle)).
 
 Build Status: [![Build Status](https://travis-ci.org/aboutcoders/supervisor-command-bundle.svg?branch=master)](https://travis-ci.org/aboutcoders/supervisor-command-bundle)
